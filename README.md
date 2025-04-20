@@ -48,6 +48,4 @@ This is primarily a personal repository for my own use. While suggestions or que
 
 ## License
 
-Unless otherwise specified, the contents of this repository are licensed under the [MIT License](LICENSE).
-
-*(Note: You'll need to add a file named `LICENSE` containing the MIT License text if you want this link to work).*
+The contents of this repository are licensed under the [MIT License](LICENSE).
