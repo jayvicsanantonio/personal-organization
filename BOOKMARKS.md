@@ -1,139 +1,167 @@
-# Personal Bookmark Organization Guide
+# Personal Bookmark Organization Guide (v2)
 
-This document outlines the structure and purpose of the categories used in my Safari Bookmarks. Its goal is to provide clarity and ensure consistency when adding new bookmarks.
+This document provides a detailed explanation of the bookmark structure used in `bookmarks.html`. Its primary goal is to serve as a clear and consistent guide for categorizing new websites and links effectively, ensuring resources are easy to find when needed.
 
 ## Guiding Principles
 
-1.  **Specificity:** Place a bookmark in the *most specific* category that applies.
-2.  **Consistency:** Try to adhere to this structure to make finding things easier later.
-3.  **Review:** Periodically review bookmarks, especially in temporary categories like "Read Later" (if you add one) or "Uncategorized," to categorize them properly or remove them if no longer needed.
-4.  **Evolution:** This structure isn't set in stone. If a category becomes too large or a new major area emerges, feel free to refactor or add new categories/subcategories. Just update this document accordingly.
-5.  **"Read Later":** Consider using a dedicated "Read Later" service (like Pocket, Instapaper) or a temporary browser bookmark folder for articles/links you intend to consume later. Once consumed, categorize them here if they are valuable references.
+1.  **Specificity First:** Always try to place a new bookmark in the _most specific_ category that accurately describes its primary purpose or content. For example, official React documentation goes in `📄 Documentation -> Frameworks & Libraries -> React`, not just `💻 Technology -> Web Development`.
+2.  **Core Purpose:** Consider the _main reason_ you saved the link. Is it for learning a concept? Is it official reference material? Is it a tool? Is it related to job seeking? This helps determine the top-level category.
+3.  **Consistency is Key:** Adhering to this structure consistently over time will make the system much more effective and reduce time spent searching.
+4.  **Active Management:**
+    - **Review Uncategorized:** Regularly process items in the `❓ Uncategorized` folder. Either move them to a proper category or delete them if they are no longer relevant.
+    - **Prune Regularly:** Periodically review older bookmarks in all categories. Remove outdated resources, broken links, or items that are no longer valuable.
+    - **Refine Structure:** This system can evolve. If a subcategory becomes too large or a new major topic emerges frequently, consider creating new subcategories or even top-level categories. Update this guide accordingly if changes are made.
+5.  **"Read Later" Strategy:** For articles, blog posts, or videos you intend to consume later, consider using:
+    - A dedicated "Read Later" service (like Pocket, Instapaper, Omnivore).
+    - A temporary browser folder named "📥 Inbox" or "To Read".
+    - _After consuming the content_, decide if it's valuable as a long-term reference. If yes, categorize it appropriately (often into `📰 Reference Articles` or a specific technology category if it's a key tutorial/explanation). If not, discard the link.
 
 ---
 
-## Top-Level Categories & Subcategories Explained
+## Category Breakdown
 
-Here's a breakdown of each main category and its subcategories:
+### 🚀 Career & Professional Development
 
-### 🚀 Career & Interviewing
+**Overall Purpose:** Encompasses all aspects related to your professional life as a software engineer/developer, including job seeking, interviewing, skill development (beyond pure technical learning), and career strategy.
 
-**Overall Purpose:** Resources related to professional development, job searching, interviewing, negotiation, and career growth specifically within the tech industry.
-
-*   **`Job Search & Market`**: Links to job boards, company career pages, resources tracking hiring trends, salary comparison sites, and articles about the state of the tech job market.
-*   **`Interview Preparation`**: Resources focused on the interview process itself.
-    *   **`General Prep & Strategy`**: Overall interview advice, behavioral question strategies (like STAR), common question lists, understanding the process at specific companies, and general "how to interview" guides.
-    *   **`Practice Platforms`**: Websites dedicated to practicing coding problems, mock interviews (technical or behavioral), and specific interview prep courses (like LeetCode, Pramp, Interviewing.io, GreatFrontEnd).
-    *   **`Resources & Books`**: Specific books, cheat sheets (like Big-O), comprehensive study plans, or resource collections focused on technical interview topics (Data Structures, Algorithms).
-    *   **`System Design Prep`**: Links specifically focused on system design interview questions, concepts, common patterns (like designing Twitter, YouTube), and related resources.
-*   **`Negotiation & Offers`**: Articles, guides, and tools specifically about salary negotiation, evaluating job offers, and related strategies.
-*   **`Career Growth & Skills`**: Resources for ongoing professional development beyond immediate interview prep. This includes soft skills, engineering management resources, communication, collaboration advice, and thoughts on long-term career strategy in tech.
-*   **`Frequently Used Links (Career/Sharpen Folders)`**: Quick-access links frequently used during job searching, skill sharpening, or professional networking (e.g., personal GitHub, LinkedIn, preferred search engine, core learning platforms).
+- **`Job Search & Market`**
+  - **What Goes Here:** Job boards (general tech or niche), company career pages you're tracking, links discussing hiring trends, salary comparison websites (Levels.fyi, Glassdoor), articles analyzing the tech job market conditions.
+  - **Distinction:** Focuses on the _external_ market and the _act_ of searching. Interview _prep_ goes in the next category.
+- **`Interview Preparation`**
+  - **Purpose:** Resources specifically used _while preparing_ for technical or behavioral interviews.
+  - **`General Strategy & Behavioral`**: Advice on the overall interview process, common behavioral questions, frameworks like STAR, insights into specific company interview loops (FAANG processes), general "how to interview" tips, resources on crafting your resume/narrative for interviews.
+  - **`Technical Practice & Platforms`**: Websites for _active practice_ of coding problems (LeetCode, HackerRank), system design scenarios, mock interview platforms (Pramp, Interviewing.io), and dedicated interview preparation course platforms (GreatFrontEnd, DesignGurus).
+  - **`Technical Concepts & Resources`**: Reference materials specifically _for interview topics_. This includes Big-O notation cheat sheets, lists of common data structures/algorithms questions, books focused solely on coding interviews (CTCI, EPI), core CS concept refreshers _in the context of interviews_.
+  - **`System Design Preparation`**: Resources _specifically_ focused on system design interview questions, patterns (e.g., designing Twitter, TinyURL), relevant case studies, frameworks for answering these questions, platform examples (Grokking the System Design Interview).
+- **`Negotiation & Offers`**
+  - **What Goes Here:** Articles, guides, books, or tools focused exclusively on salary negotiation tactics, understanding equity/compensation packages, evaluating job offers, and responding to recruiters regarding offers.
+- **`Career Growth & Skills`**
+  - **What Goes Here:** Resources for long-term professional development. Includes soft skills (communication, teamwork, leadership), engineering management guides, articles on mentorship, conference talk resources (unless purely technical), advice on navigating promotions, dealing with workplace dynamics, public speaking tips for tech, writing effectively in a professional context.
+  - **Distinction:** Focused on skills and strategy _beyond_ immediate interview prep. Technical skill _learning_ goes under `Learning Resources` or `Technology`.
+- **`Core Workflow Links`**
+  - **What Goes Here:** Quick access links to platforms essential for your _daily professional workflow_ or job search/skill sharpening routine. Examples: Personal GitHub profile, LinkedIn, preferred search engine, primary learning platform dashboards (Frontend Masters, EpicReact), personal portfolio site. Keep this list short and focused on frequent use.
 
 ### 📚 Learning Resources
 
-**Overall Purpose:** Central hub for educational platforms, courses, guides, and foundational learning materials across various domains, primarily focused on technology but also including other areas.
+**Overall Purpose:** Hub for acquiring new knowledge and skills, primarily technical but also including other areas. Focus is on the _process of learning_.
 
-*   **`Platforms & Course Providers`**: Links to the main landing pages or dashboards of online learning platforms (e.g., Frontend Masters, Coursera, Udemy, egghead.io, specific instructor sites like Kent C. Dodds, Wes Bos).
-*   **`Guides, Roadmaps & Docs`**: Comprehensive guides, learning roadmaps (like roadmap.sh), official documentation sites (like MDN), and curated handbooks or resource lists.
-*   **`Specific Courses & Tutorials`**: Links to individual courses, tutorials, or specific learning modules within a larger platform. Try to categorize these under a more specific *topic* category (like `Web Development -> React`) if possible, but use this if it's a standalone course or doesn't fit elsewhere easily.
-*   **`Challenges & Practice`**: Websites offering coding challenges, UI/CSS challenges, or other practical exercises for skill-building (distinct from *interview* practice).
-*   **`Books & Reading Lists`**: Links related to educational books, study guides for specific books, resources for finding free ebooks (like Project Gutenberg), or personal reading lists/trackers.
-*   **`Arts & Design Learning`**: Tutorials, courses, and resources specifically for learning artistic or design skills (e.g., Procreate tutorials, design fundamentals).
-*   **`Social Skills Learning`**: Resources focused on improving social interactions, communication, and interpersonal skills.
+- **`Platforms & Course Providers`**
+  - **What Goes Here:** Main landing pages or account dashboards for online learning platforms (Frontend Masters, egghead.io, Coursera, Udemy, Pluralsight, Scrimba), specific instructor sites (Kent C. Dodds, Wes Bos, Josh Comeau), university CS course listings.
+  - **Distinction:** Links to the _source_ of courses, not individual course content (unless it's the main entry point).
+- **`Guides, Roadmaps & Reference`**
+  - **What Goes Here:** Comprehensive learning guides (like FEM Handbook), skill roadmaps (roadmap.sh), high-level documentation hubs (like web.dev, Google Developer Pathways), cheat sheets (unless highly specific to one tech, then maybe under Documentation), curated resource lists, foundational concept explanations (like "Missing Semester").
+  - **Distinction:** Broader than official docs, often opinionated guides or curated learning paths.
+- **`Specific Courses & Tutorials`**
+  - **What Goes Here:** Links to _individual_ courses, tutorials (text or video), workshops, or specific learning modules.
+  - **Guidance:** Try to place these under a relevant `Technology` subcategory if possible (e.g., a React course under `Technology -> Web Dev -> Frameworks -> React`). Use this category if it's a standalone resource or covers multiple topics broadly.
+- **`Challenges & Practice`**
+  - **What Goes Here:** Platforms for practicing coding or design skills _outside_ the specific context of interviews. Examples: CSS battle sites, UI cloning challenges (Frontloops), general coding practice sites not explicitly marketed for interviews.
+  - **Distinction:** Skill building, not necessarily interview simulation.
+- **`Newsletters & Subscriptions`**
+  - **What Goes Here:** Landing pages, sign-up forms, or archive links for technical newsletters you subscribe to (e.g., TLDR Web Dev, JavaScript Weekly, specific author newsletters like Kent C. Dodds or Addy Osmani). Helps manage subscriptions and find past issues.
+- **`Books & Reading Lists`**
+  - **What Goes Here:** Links related to technical or educational books (Amazon pages, publisher sites, study guides for books), resources for finding free/discounted books (Project Gutenberg, PDFDrive), personal book tracking tools (like Literal, Goodreads, or a personal spreadsheet).
+- **`Arts & Design Learning`**
+  - **What Goes Here:** Tutorials, courses, resources focused on learning visual design principles, specific design tools (Procreate, Figma basics), typography, color theory, illustration, etc.
+- **`Social Skills Learning`**
+  - **What Goes Here:** Resources aimed at improving interpersonal communication, understanding social dynamics, networking skills (distinct from career strategy), public speaking (if general, not tech-focused), emotional intelligence.
+
+### 📄 Documentation
+
+**Overall Purpose:** **Official reference material.** This is for looking up syntax, APIs, specifications, and authoritative information about a specific technology.
+
+- **`Languages`**
+  - **What Goes Here:** Official documentation for programming languages (MDN for JavaScript/HTML/CSS, TypeScript Handbook, Python docs, Go docs, Rust docs, PHP manual).
+- **`Frameworks & Libraries`**
+  - **What Goes Here:** Official documentation sites for specific frameworks (React, Next.js, Remix, Vue, Angular, Svelte, Astro), major libraries (Tailwind CSS, TanStack Query, Redux, Zustand, Express, Lodash), UI component libraries (Radix UI, Headless UI, MUI, Chakra UI).
+- **`Tools & Platforms`**
+  - **What Goes Here:** Official documentation for development tools (Git, Docker, VS Code, Chrome DevTools), package managers (npm, pnpm, yarn), linters/formatters (ESLint, Prettier), testing tools (Jest, Vitest, Cypress, Playwright), cloud platforms (AWS, GCP, Azure, Vercel, Netlify, Fly.io), databases (PostgreSQL, MongoDB), and other platforms (GitHub Docs, Figma Dev Platform).
+- **`APIs & Specifications`**
+  - **What Goes Here:** Official web API documentation (MDN Web APIs section), standards specifications (W3C, WHATWG, ECMA TC39), accessibility guidelines (WCAG, WAI-ARIA specs), protocol definitions (HTTP specs).
 
 ### 💻 Technology & Programming
 
-**Overall Purpose:** Links related to specific technologies, programming languages, tools, concepts, and technical deep-dives. This is the core technical reference section.
+**Overall Purpose:** Deep dives into specific technologies, concepts, best practices, articles, blog posts, and tutorials _about_ technology. This is where most technical _learning content_ and _reference articles_ live, distinct from official docs.
 
-*   **`Artificial Intelligence (AI)`**: All things AI-related.
-    *   **`Chatbots & Assistants`**: Direct links to conversational AI tools used for general queries or assistance (e.g., ChatGPT, Claude, Gemini).
-    *   **`Coding Tools`**: AI tools specifically designed to assist with code generation, completion, or debugging (e.g., Copilot, Codeium, Cursor's AI features, Replit AI).
-    *   **`Platforms, Tools & News`**: Links to AI research labs, specific AI model platforms (like Google Labs, Anthropic), AI tool directories, news sources focused on AI, and technical documentation about AI models/protocols.
-    *   **`Discussions & Analysis`**: Articles, blog posts, or papers analyzing AI trends, capabilities, ethics, or the impact of AI on development and society.
-*   **`Web Development`**: Broad category for web technologies.
-    *   **`Core Concepts (...)`**: Foundational web technologies: HTML structure/semantics, CSS fundamentals (box model, cascade, specificity, selectors), core JavaScript (ES features, DOM manipulation, events, async), browser internals, basic accessibility (A11y), web performance basics (metrics like LCP, FCP, TTI), and fundamental security concepts (like CORS).
-    *   **`Frameworks & Libraries`**: Links related to specific frontend or backend JavaScript frameworks and libraries. Create sub-subcategories for major ones.
-        *   **`React`**: Core React concepts, official docs, specific hooks, patterns, state management, performance optimization *within* React.
-        *   **`React Ecosystem (...)`**: Libraries often used *with* React: state management (Redux, Zustand, Jotai), data fetching (TanStack Query, SWR, Apollo), routing (React Router), UI component kits (Radix, Headless UI, MUI, Chakra), animation (Framer Motion).
-        *   **`Next.js`**: Official docs, specific features (App Router, Server Actions, Caching), tutorials, and discussions about Next.js.
-        *   **`Remix`**: Official docs, specific features, tutorials, community resources, and discussions about Remix.
-        *   **`Astro`**: Official docs, specific features (Islands, View Transitions), tutorials, and ecosystem tools like Starlight.
-        *   **`Svelte`**: Docs, tutorials, news related to Svelte/SvelteKit.
-        *   **`Ember`**: Docs, tutorials, community links for Ember.js.
-        *   **`General Framework Discussions`**: Comparative articles, opinion pieces about multiple frameworks, or discussions about the framework landscape.
-    *   **`CSS`**: Deeper dives into CSS, beyond the absolute basics.
-        *   **`Modern Features & Techniques`**: Specific new CSS features (container queries, `light-dark()`, scroll-driven animations, `:has()`, cascade layers, anchor positioning), advanced layout techniques, animation tricks.
-        *   **`Frameworks, Methodologies & Resets`**: CSS utility frameworks (Tailwind), naming conventions (BEM, ITCSS), CSS-in-JS libraries (if not framework-specific), and CSS reset strategies/examples.
-        *   **`Tools & Utilities`**: CSS generators, validators, color tools, unit converters, animation libraries, icon libraries (like Iconify).
-        *   **`Layout`**: Specific resources focusing on CSS layout methods like Flexbox, Grid, and older methods if needed for reference.
-        *   **`Learning & Concepts`**: Deeper conceptual articles about CSS (specificity, cascade, font metrics), browser support discussions, responsive design strategies.
-    *   **`JavaScript (Core & Ecosystem)`**: Focus on JavaScript itself and its broader ecosystem (beyond specific frontend frameworks).
-        *   **`Core Language & Concepts`**: Deeper dives into JS features (prototypes, closures, modules, async/await), style guides, best practices, data structures in JS, functional programming concepts in JS.
-        *   **`Modern Features & Proposals`**: Articles about new/upcoming ECMAScript features, TC39 proposals.
-        *   **`Ecosystem & Tooling`**: Build tools (Vite, Parcel, Webpack), package managers (npm, yarn, pnpm), runtimes (Node.js specifics go in its own folder, but Bun/Deno comparisons might fit here), linters/formatters (ESLint, Prettier), testing tools (Jest, Vitest, Playwright, Cypress - unless very framework specific).
-        *   **`Performance`**: Articles specifically about optimizing JavaScript execution speed, memory usage, and related techniques.
-        *   **`Blogs & Communities`**: Key JavaScript blogs, newsletters, or community hubs.
-    *   **`TypeScript`**: Resources specifically about TypeScript: language features, configuration (`tsconfig.json`), type checking strategies, utility types, TS-specific tools, and how TS integrates with other tools (like Node.js).
-    *   **`Node.js`**: Backend JavaScript runtime specifics: Node APIs, best practices, performance, security, popular Node frameworks (Express, Fastify - unless they get their own category), and ecosystem tools specific to Node.
-    *   **`Web Performance`**: Broader web performance topics: Core Web Vitals deep dives, optimization strategies (caching, compression, resource hints, rendering patterns), performance analysis tools (Lighthouse, WebPageTest, browser DevTools performance tab), and case studies.
-    *   **`Web Architecture & Design Patterns`**: High-level application structure: Monorepos, micro-frontends, design patterns (MVC, MVVM, SOLID in web context), state management strategies (global vs local), API design (REST, GraphQL), data fetching patterns, architectural decision records (ADRs), discussions on technical debt and refactoring.
-    *   **`APIs & Services`**: Links related to specific third-party APIs, directories of public APIs, or guides on using common web service protocols.
-    *   **`State of the Web`**: Annual surveys (State of JS/CSS/HTML), trend reports, and resources tracking the evolution of web technologies and browser support.
-    *   **`Mobile (React Native / Expo)`**: Resources specific to building mobile apps using web technologies, primarily React Native and the Expo ecosystem.
-    *   **`DevOps & Infrastructure`**: Topics related to deploying and hosting web applications: CI/CD, cloud platforms (AWS, Vercel, Netlify, Fly.io specifics), Docker, serverless functions, infrastructure as code, monitoring.
-*   **`Programming Languages (General)`**: For languages other than JavaScript/TypeScript.
-    *   **`Go Lang`**: Resources for learning or using Go.
-    *   **`Other`**: Placeholders for other languages (e.g., Python, Rust, PHP/Laravel link was here).
-*   **`Databases`**: Anything related to databases: SQL, NoSQL, specific database technologies (PostgreSQL, MongoDB, Redis), ORMs, query optimization, database design.
-    *   **`Trends & News`**: Articles about the database market or new technologies.
-*   **`Security`**: Web security concepts beyond the basics: XSS, CSRF, authentication/authorization patterns (OAuth, JWT), secure coding practices, dependency scanning, penetration testing resources, specific security tools or platforms.
-*   **`Design Systems`**: Resources about creating, maintaining, and using design systems: component library structure, token management, documentation strategies, adoption metrics, examples of public design systems, tooling (Storybook, Figma Tokens).
-*   **`Version Control (Git)`**: Resources specifically about Git: advanced commands, branching strategies (Gitflow), tutorials, tools (GUIs, helper scripts), and Git hosting platforms (GitHub/GitLab features beyond basic repo hosting).
+- **`Artificial Intelligence (AI)`**
+  - **Purpose:** All resources related to AI concepts, tools, news, and development.
+  - **`Chatbots & Assistants`**: Direct links to AI chatbots used for interaction/querying (ChatGPT, Claude, Gemini App, Perplexity).
+  - **`Coding Tools & Code Generation`**: AI specifically for aiding software development (Copilot, Codeium/Windsurf, Cursor AI, Replit AI, v0). Includes tools and articles _about_ using them effectively.
+  - **`Platforms, Models & Infrastructure`**: Resources about specific AI models (GPT-4, Claude 3), platforms for building with AI (Google AI Studio, Anthropic API), research labs, AI infrastructure topics.
+  - **`AI News, Tools & Discussion`**: General AI news sources (The Rundown AI), tool directories (Supertools), analytical articles, opinion pieces, ethical discussions, tutorials on using AI APIs, studies on AI capabilities (LLM analysis, hallucination reports).
+- **`Web Development`**
+  - **Purpose:** Core area for web-related technologies. Highly nested for specificity.
+  - _(...Subcategories like `Core Concepts`, `Frameworks & Libraries` (with nested frameworks), `CSS` (with nested topics), `JavaScript`, `TypeScript`, `Node.js`, `Web Performance`, `Web Architecture`, `APIs`, `State of the Web`, `Mobile`, `DevOps` should be listed here...)_
+  - **Guidance:** Place technical articles, blog posts, deep-dive tutorials, comparative analyses, and best practice guides within the most relevant subcategory. For example, an article comparing React state management libraries goes under `Frameworks & Libraries -> React Ecosystem`. A tutorial on CSS Grid goes under `CSS -> Layout`.
+- **`Programming Languages (General)`**
+  - **Purpose:** For languages other than JS/TS used in your work or learning.
+  - **`Go Lang`**: Go tutorials, articles, best practices, standard library usage examples.
+  - **`Other`**: Space for other languages (Python, Rust, Java, C#, PHP etc.).
+- **`Databases`**
+  - **What Goes Here:** Articles on database design, query optimization techniques, comparisons of database types (SQL vs NoSQL), specific database tutorials (beyond official docs), ORM usage patterns, case studies involving databases.
+- **`Security`**
+  - **What Goes Here:** Articles explaining security vulnerabilities (XSS, CSRF, SQLi), secure coding practices, guides on implementing authentication/authorization (OAuth flows, JWT best practices), summaries of security talks, tool comparisons (dependency scanners, SAST tools).
+- **`Design Systems`**
+  - **What Goes Here:** Articles on the _process_ of building/managing design systems, case studies, best practices for component design/documentation, managing tokens, measuring adoption, discussions on tooling (Storybook usage patterns), examples of public design systems for inspiration (but the link to the system _itself_ might go under `Documentation` or `Tools` if it's interactive).
+- **`Version Control (Git)`**
+  - **What Goes Here:** Tutorials on advanced Git features (rebase, reflog), articles explaining Git concepts (branches, merges), common workflows (Gitflow), scripts or tools that enhance Git usage, tips and tricks.
 
 ### 🛠️ Tools & Utilities
 
-**Overall Purpose:** Links to specific software tools, online utilities, hardware, and useful resources that aid development, design, or general productivity.
+**Overall Purpose:** Links to specific software applications, websites acting as tools, hardware resources, and general utilities that _assist_ in development, design, or productivity, rather than being learning resources themselves.
 
-*   **`Coding & Development Tools`**: Specific IDEs/editors (VS Code extensions, settings), terminals, command-line tools, debuggers, code formatters, linters, API clients (Postman, Insomnia), specific libraries that act as tools (like `maskito`), fonts for coding, Git GUIs.
-*   **`Design & UI Tools`**: Design software (Figma plugins, Sketch resources), prototyping tools, color pickers, icon libraries/tools (Iconify), image editors/optimizers, wireframing tools, font resources (Google Fonts).
-*   **`General Utilities`**: File sharing services (Wormhole), online converters (PXtoEM), productivity timers, system utilities (Karabiner), benchmarking sites (Human Benchmark), price trackers (CamelCamelCamel), small web-based tools (SmallDev.tools), note-taking apps (if not part of a larger 'Second Brain' category).
-*   **`AI Tools (...)`**: *Cross-listed* main links to frequently used AI tools for quick access (ChatGPT, Gemini, Claude, Perplexity, Supertools directory, NotebookLM). The primary categorization is under `Technology & Programming -> AI`.
+- **`Coding & Development Tools`**
+  - **What Goes Here:** Links to download IDEs/editors, specific useful extensions/plugins, terminal emulators, API testing clients (Postman, Insomnia downloads/web app), database GUIs, code playgrounds (CodePen, JSFiddle - if used as a tool, not just for viewing examples), code formatters (online versions), specific libraries that primarily function as a utility (e.g., `maskito` for input masking).
+- **`Design & UI Tools`**
+  - **What Goes Here:** Online design tools (Figma, Canva), color palette generators, icon finders/generators (Noun Project, Iconify _search_), image optimization tools (TinyPNG), font libraries (Google Fonts), wireframing/prototyping tools (Balsamiq, Framer), SVG tools/editors.
+- **`General Utilities`**
+  - **What Goes Here:** File sharing services (Wormhole, WeTransfer), online converters (JSON formatter, timestamp converter, PXtoEM), price comparison tools (CamelCamelCamel), health/device trackers (Finestra), benchmarking sites (Human Benchmark), system enhancement tools (Karabiner), small single-purpose web tools (SmallDev.tools), password managers, VPN services.
 
 ### 🌱 Personal Development
 
-**Overall Purpose:** Resources focused on self-improvement, health, productivity, finance, social skills, and general well-being outside of direct technical skill development.
+**Overall Purpose:** Resources focused on self-improvement in non-technical areas: health, productivity, finance, social skills, communication, and general well-being.
 
-*   **`Health & Wellness`**: Diet, nutrition, exercise, sleep optimization, mental health resources, specific health tracking tools/apps (Levels), information on medical conditions or therapies, mindfulness/meditation resources.
-*   **`Productivity & Mindset`**: Time management techniques (Pomodoro), habit formation, goal setting, focus strategies (binaural beats), motivation, dealing with procrastination, growth mindset resources, decision-making frameworks, book summaries related to productivity.
-*   **`Finance`**: Personal finance management, budgeting tools, investment information (stocks, crypto), retirement planning, financial news (if personal finance focused), resources on specific financial instruments or platforms (Schwab, Coinbase).
-    *   **`General & Planning`**: Budgeting, financial calendars, general advice.
-    *   **`Crypto`**: Specific crypto news, analysis, platforms, educational resources.
-    *   **`Stock Market`**: Stock analysis tools, market news, investment strategies (if specific to stocks).
-*   **`Social Skills & Relationships`**: Improving communication, networking advice, understanding social cues, dating/relationship advice, conflict resolution techniques.
-*   **`Writing Skills`**: Resources focused on improving writing clarity, grammar, style, technical writing guides, tools like Hemingway Editor, and articles on the importance of writing in professional contexts.
+- **`Health & Wellness`**
+  - **What Goes Here:** Health blogs, nutrition guides, workout plans, sleep tracking apps/advice, mental wellness resources (meditation apps, articles on stress management), specific health product links (supplements, gear), medical information sources (reputable ones like Mayo Clinic, NIH - use with caution).
+- **`Productivity & Mindset`**
+  - **What Goes Here:** Articles/books on time management (GTD, Pomodoro), habit formation (Atomic Habits resources), goal setting frameworks (OKRs, SMART), focus techniques (deep work, flow state), learning strategies (meta-learning, spaced repetition), mindset resources (growth mindset, Stoicism), motivational content.
+- **`Finance`**
+  - **Purpose:** Managing personal finances.
+  - **`General & Planning`**: Budgeting tools/apps (YNAB, Mint), financial planning advice, retirement calculators, general personal finance blogs/podcasts, tax resources.
+  - **`Crypto`**: Crypto exchanges (Coinbase, Binance), portfolio trackers, specific coin analysis sites (if used for personal investment tracking), crypto news sources (if primarily for investment decisions).
+  - **`Stock Market`**: Brokerage account links (Schwab, Fidelity), stock screeners, market news sites (Bloomberg, WSJ - if for personal investment), portfolio analysis tools.
+- **`Social Skills & Relationships`**
+  - **What Goes Here:** Resources on improving communication, active listening, public speaking (non-technical), networking tips, understanding body language, dating advice, relationship counseling resources, conflict resolution strategies.
+- **`Writing Skills`**
+  - **What Goes Here:** Grammar/style guides (Strunk & White, Dreyer's English), writing improvement blogs/courses (Julian Shapiro's guide), tools for checking writing (Grammarly, Hemingway Editor), resources on technical writing specifically (Google Dev Writing Guide), advice on writing clearly/effectively in professional settings (RFC guides, blog posts on writing well).
 
 ### 🎉 Leisure & Interests
 
-**Overall Purpose:** Links related to hobbies, entertainment, social media, news consumption, shopping, and other non-work, non-learning activities.
+**Overall Purpose:** Links related to entertainment, hobbies, social connection, news consumption (non-technical), shopping, and general relaxation or fun.
 
-*   **`Social Media & Communities`**: Direct links to social platforms (Facebook, Twitter, Reddit, LinkedIn), specific online communities (Tech Bandits), forums, and related resources or discussions about these platforms (like the Bluesky/AT Protocol articles).
-*   **`News & Tech Blogs`**: General tech news sites (TechCrunch, Macworld), personal blogs of developers/designers you follow (unless purely educational, then maybe under Learning), and newsletters.
-*   **`Hobbies & Misc`**: Links related to specific hobbies (Coffee, Gaming), shopping (Clothes, specific products), entertainment (YouTube channels - if primarily for leisure, Twitch), interesting but non-essential tools or articles (VS Code theme discussions, fun web experiments), and personal services (Moving company, ISP help pages).
-    *   **`Coffee`**: Specific coffee gear, brewing methods, roasters.
-    *   **`Clothes`**: Online clothing stores, specific items, style guides.
-    *   **`Gaming/Fun`**: Game guides, specific games, fun web apps/toys.
-    *   **`Services`**: Links to service providers used personally.
-    *   **`Misc`**: Catch-all for fun or interesting links that don't fit elsewhere.
+- **`Social Media & Communities`**
+  - **What Goes Here:** Direct links to social media platforms (Facebook, Twitter/X, Instagram, Reddit, LinkedIn, Twitch), specific online communities or forums you participate in (Discord servers, Discourse forums, Circle communities), niche social networks. Includes discussions _about_ these platforms (e.g., Bluesky articles).
+- **`News & Tech Blogs`**
+  - **What Goes Here:** General news websites (NYTimes, BBC, Guardian), tech news aggregators (Hacker News, TechCrunch), blogs you follow for opinions or non-tutorial content (personal developer blogs like Zeldman's, Daring Fireball).
+  - **Distinction:** Content consumed primarily for information/entertainment, not structured learning or specific problem-solving.
+- **`Hobbies & Misc`**
+  - **Purpose:** Catch-all for personal interests.
+  - **`Coffee`**: Links to favorite coffee roasters, brewing gear reviews, specific brewing guides/recipes, coffee blogs/forums.
+  - **`Clothes`**: Online clothing stores you frequent, specific clothing items wishlisted, style blogs/influencers.
+  - **`Gaming & Fun`**: Game wikis/guides (Pokemon Sleep guide), links to web games, game stores (Steam), fun/interesting web experiments (non-educational), YouTube channels primarily for entertainment.
+  - **`Services`**: Links to personal service providers (ISP help pages, utility companies, moving services).
+  - **`Misc`**: Anything else that doesn't fit - interesting articles outside your core focus, funny websites, temporary links for events, wallpaper sites, etc.
 
-### 📰 Articles & Blogs (From Reading List)
+### 📰 Reference Articles (From Reading List)
 
-**Overall Purpose:** This section primarily serves as an *organized archive* of articles and blog posts originally saved to the "Reading List". They have been categorized thematically *after* being read/processed. New articles to read should ideally go into a dedicated "Read Later" system/folder or be categorized directly into the relevant topic (e.g., a React performance article under `Technology -> Web Development -> React`).
+**Overall Purpose:** An **archive** for articles, blog posts, and talks that you have _already consumed_ (from your "Read Later" list or found directly) and deemed valuable enough to keep as a reference. This distinguishes them from official documentation or active learning resources.
 
-*   *(Subcategories mirror main topics)*: Use the subcategories (`Web Development & Technology`, `Design & UX`, `Career & Industry`, `Personal Growth & Misc`) to group these archived articles based on their content. This makes it easier to find specific reference articles later.
+- **Guidance:** Categorize these saved articles using subfolders mirroring the main structure (`Web Development & Technology`, `Design & UX`, `Career & Industry`, `Personal Growth & Misc`). This allows you to find specific insightful articles you remember reading later on. Avoid letting this become another "Read Later" dumping ground.
 
 ### ❓ Uncategorized (Needs Review)
 
-**Overall Purpose:** A temporary holding place for bookmarks that haven't been categorized yet, or for links that seem broken or irrelevant upon review. Items here should be periodically reviewed and either moved to a proper category or deleted.
+**Overall Purpose:** A temporary holding area for newly saved bookmarks before you have time to categorize them properly, or for links you're unsure about.
+
+- **Action:** Regularly review this folder. Move items to their correct category or delete them if they are no longer needed, broken, or duplicates. Aim to keep this folder empty or nearly empty.
 
 ---

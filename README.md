@@ -8,23 +8,23 @@ This repository serves as a central place to manage and document my personal org
 
 This repository contains various files and documentation related to my macOS setup and personal organization. Key contents include:
 
-*   **`BOOKMARKS.md`**: A detailed guide explaining the categorization system for my browser bookmarks. This helps maintain consistency when adding new links.
-*   **`OrganizedBookmarks.html`**: An exported HTML file of my curated and organized bookmarks, ready for import into Safari, Chrome, Firefox, or other browsers supporting the Netscape Bookmark File Format.
-*   *(Future additions may include:)*
-    *   Shell configuration files (`.zshrc`, `.bash_profile`, aliases, etc.)
-    *   Application settings or preferences (`defaults write` commands, important config files)
-    *   System preferences documentation or scripts (`defaults` commands)
-    *   Installation scripts (e.g., using Homebrew Bundle)
-    *   Notes on preferred folder structures
-    *   Dotfiles for specific tools (`.vimrc`, `.gitconfig`, etc.)
+- **`BOOKMARKS.md`**: A detailed guide explaining the categorization system for my browser bookmarks. This helps maintain consistency when adding new links.
+- **`bookmarks.html`**: An exported HTML file of my curated and organized bookmarks, ready for import into Safari, Chrome, Firefox, or other browsers supporting the Netscape Bookmark File Format.
+- _(Future additions may include:)_
+  - Shell configuration files (`.zshrc`, `.bash_profile`, aliases, etc.)
+  - Application settings or preferences (`defaults write` commands, important config files)
+  - System preferences documentation or scripts (`defaults` commands)
+  - Installation scripts (e.g., using Homebrew Bundle)
+  - Notes on preferred folder structures
+  - Dotfiles for specific tools (`.vimrc`, `.gitconfig`, etc.)
 
 ## Structure
 
 The repository is organized logically, aiming for clarity.
 
-*   **Root Directory:** Contains this `README.md`, the main `BOOKMARKS.md` guide, and potentially top-level configuration or scripts.
-*   **Bookmarks:** Includes the `OrganizedBookmarks.html` file.
-*   *(Future directories might include `scripts/`, `config/`, `notes/`, etc., as needed.)*
+- **Root Directory:** Contains this `README.md`, the main `BOOKMARKS.md` guide, and potentially top-level configuration or scripts.
+- **Bookmarks:** Includes the `bookmarks.html` file.
+- _(Future directories might include `scripts/`, `config/`, `notes/`, etc., as needed.)_
 
 Please refer to specific files like `BOOKMARKS.md` for detailed explanations within their respective domains.
 
@@ -39,8 +39,8 @@ The primary motivations for creating and maintaining this repository are:
 
 ## Usage
 
-*   **Bookmarks:** The `OrganizedBookmarks.html` file can be imported directly into most modern web browsers. Refer to `BOOKMARKS.md` for the organizational philosophy behind it.
-*   **Configuration Files (Future):** Specific instructions will be added if configuration files or setup scripts require manual steps or execution.
+- **Bookmarks:** The `bookmarks.html` file can be imported directly into most modern web browsers. Refer to `BOOKMARKS.md` for the organizational philosophy behind it.
+- **Configuration Files (Future):** Specific instructions will be added if configuration files or setup scripts require manual steps or execution.
 
 ## Contributing
 
