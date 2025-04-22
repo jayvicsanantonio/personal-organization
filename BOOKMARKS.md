@@ -1,4 +1,4 @@
-# Personal Bookmark Organization Guide (v2)
+# Personal Bookmark Organization Guide
 
 This document provides a detailed explanation of the bookmark structure used in `bookmarks.html`. Its primary goal is to serve as a clear and consistent guide for categorizing new websites and links effectively, ensuring resources are easy to find when needed.
 
