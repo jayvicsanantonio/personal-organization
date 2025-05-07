@@ -8,7 +8,7 @@ This repository serves as a central place to manage and document my personal org
 
 This repository contains various files and documentation related to my macOS setup and personal organization. Key contents include:
 
-- **`BOOKMARKS.md`**: A detailed guide explaining the categorization system for my browser bookmarks. This helps maintain consistency when adding new links.
+- **`bookmarks.md`**: A detailed guide explaining the categorization system for my browser bookmarks. This helps maintain consistency when adding new links.
 - **`bookmarks.html`**: An exported HTML file of my curated and organized bookmarks, ready for import into Safari, Chrome, Firefox, or other browsers supporting the Netscape Bookmark File Format.
 - **`macos_defaults.md`**: Documentation explaining my macOS defaults settings for Dock, Finder, and Desktop Services configurations.
 - **`defaults_settings.sh`**: An executable script containing my preferred macOS settings. This can be run on a new Mac to apply all my customized system preferences.
@@ -25,11 +25,11 @@ This repository contains various files and documentation related to my macOS set
 
 The repository is organized logically, aiming for clarity.
 
-- **Root Directory:** Contains this `README.md`, the main `BOOKMARKS.md` guide, `.rules` (AI assistant rules), and potentially top-level configuration or scripts. Symlinks for AI tools (e.g., `.windsurfrules`, `.clinerules`, `.cursorrules`) may also be present here, each pointing to `.rules`.
+- **Root Directory:** Contains this `README.md`, the main `bookmarks.md` guide, `.rules` (AI assistant rules), and potentially top-level configuration or scripts. Symlinks for AI tools (e.g., `.windsurfrules`, `.clinerules`, `.cursorrules`) may also be present here, each pointing to `.rules`.
 - **Bookmarks:** Includes the `bookmarks.html` file.
 - _(Future directories might include `scripts/`, `config/`, `notes/`, etc., as needed.)_
 
-Please refer to specific files like `BOOKMARKS.md` for detailed explanations within their respective domains.
+Please refer to specific files like `bookmarks.md` for detailed explanations within their respective domains.
 
 ## Motivation
 
@@ -42,8 +42,8 @@ The primary motivations for creating and maintaining this repository are:
 
 ## Usage
 
-- **Bookmarks:** The `bookmarks.html` file can be imported directly into most modern web browsers. Refer to `BOOKMARKS.md` for the organizational philosophy behind it.
-- **AI Assistant Rules:** The `.rules` file provides project-specific instructions for AI assistants. For each AI tool/editor, create a symlink (e.g., `ln -sf .rules .windsurfrules`) so the tool reads the correct rules. See `AIASSISTANTRULES.md` for details and examples.
+- **Bookmarks:** The `bookmarks.html` file can be imported directly into most modern web browsers. Refer to `bookmarks.md` for the organizational philosophy behind it.
+- **AI Assistant Rules:** The `.rules` file provides project-specific instructions for AI assistants. For each AI tool/editor, create a symlink (e.g., `ln -sf .rules .windsurfrules`) so the tool reads the correct rules. See `ai_assistant_rules.md` for details and examples.
 - **Configuration Files (Future):** Specific instructions will be added if configuration files or setup scripts require manual steps or execution.
 
 ## Contributing
