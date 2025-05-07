@@ -10,11 +10,13 @@ This repository contains various files and documentation related to my macOS set
 
 - **`BOOKMARKS.md`**: A detailed guide explaining the categorization system for my browser bookmarks. This helps maintain consistency when adding new links.
 - **`bookmarks.html`**: An exported HTML file of my curated and organized bookmarks, ready for import into Safari, Chrome, Firefox, or other browsers supporting the Netscape Bookmark File Format.
+- **`macos_defaults.md`**: Documentation explaining my macOS defaults settings for Dock, Finder, and Desktop Services configurations.
+- **`defaults_settings.sh`**: An executable script containing my preferred macOS settings. This can be run on a new Mac to apply all my customized system preferences.
+- **`export_defaults.sh`**: A utility script that exports current macOS preferences to generate an updated `defaults_settings.sh` file.
 - **`.rules`**: Project-specific operational guidelines for AI coding assistants. Symlinks (e.g., `.windsurfrules`, `.clinerules`, `.cursorrules`) can be created to point to `.rules` for compatibility with different editors or AI tools.
 - _(Future additions may include:)_
   - Shell configuration files (`.zshrc`, `.bash_profile`, aliases, etc.)
-  - Application settings or preferences (`defaults write` commands, important config files)
-  - System preferences documentation or scripts (`defaults` commands)
+  - Additional application settings or preferences
   - Installation scripts (e.g., using Homebrew Bundle)
   - Notes on preferred folder structures
   - Dotfiles for specific tools (`.vimrc`, `.gitconfig`, etc.)
