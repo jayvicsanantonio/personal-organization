@@ -3,6 +3,7 @@
 brew "docker"
 brew "fnm"
 brew "gh"
+brew "git-secrets"
 brew "git"
 brew "llm"
 brew "pnpm"
