@@ -10,6 +10,8 @@ This repository contains various files and documentation related to my macOS set
 
 - **`bookmarks.md`**: A detailed guide explaining the categorization system for my browser bookmarks. This helps maintain consistency when adding new links.
 - **`bookmarks.html`**: An exported HTML file of my curated and organized bookmarks, ready for import into Safari, Chrome, Firefox, or other browsers supporting the Netscape Bookmark File Format.
+- **`Brewfile`**: A manifest of all applications, utilities, and tools to install via Homebrew on a new Mac.
+- **`brewfile.md`**: Documentation explaining how to use the Brewfile for automated software installation.
 - **`macos_defaults.md`**: Documentation explaining my macOS defaults settings for Dock, Finder, and Desktop Services configurations.
 - **`defaults_settings.sh`**: An executable script containing my preferred macOS settings. This can be run on a new Mac to apply all my customized system preferences.
 - **`export_defaults.sh`**: A utility script that exports current macOS preferences to generate an updated `defaults_settings.sh` file.
