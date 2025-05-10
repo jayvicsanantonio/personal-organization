@@ -15,6 +15,10 @@ This repository contains various files and documentation related to my macOS set
 - **`macos_defaults.md`**: Documentation explaining my macOS defaults settings for Dock, Finder, and Desktop Services configurations.
 - **`defaults_settings.sh`**: An executable script containing my preferred macOS settings. This can be run on a new Mac to apply all my customized system preferences.
 - **`export_defaults.sh`**: A utility script that exports current macOS preferences to generate an updated `defaults_settings.sh` file.
+- **`setup-git-hooks.sh`**: Automation script for setting up Git security tools globally.
+- **`apply-git-hooks.sh`**: Utility script to apply Git security hooks to existing repositories.
+- **`scan-repo-for-secrets.sh`**: Utility script to scan repositories for secrets in Git history.
+- **`git-security.md`**: Documentation on Git security tools and best practices for preventing credential leaks.
 - **`.rules`**: Project-specific operational guidelines for AI coding assistants. Symlinks (e.g., `.windsurfrules`, `.clinerules`, `.cursorrules`) can be created to point to `.rules` for compatibility with different editors or AI tools.
 - _(Future additions may include:)_
   - Shell configuration files (`.zshrc`, `.bash_profile`, aliases, etc.)
@@ -29,6 +33,7 @@ The repository is organized logically, aiming for clarity.
 
 - **Root Directory:** Contains this `README.md`, the main `bookmarks.md` guide, `.rules` (AI assistant rules), and potentially top-level configuration or scripts. Symlinks for AI tools (e.g., `.windsurfrules`, `.clinerules`, `.cursorrules`) may also be present here, each pointing to `.rules`.
 - **Bookmarks:** Includes the `bookmarks.html` file.
+- **Git Security:** Includes scripts and documentation for Git security: `setup-git-hooks.sh`, `apply-git-hooks.sh`, `scan-repo-for-secrets.sh`, and `git-security.md`.
 - _(Future directories might include `scripts/`, `config/`, `notes/`, etc., as needed.)_
 
 Please refer to specific files like `bookmarks.md` for detailed explanations within their respective domains.
@@ -41,11 +46,13 @@ The primary motivations for creating and maintaining this repository are:
 2.  **Backup:** To have a reliable, version-controlled backup of important configurations and personalized resources like curated bookmarks.
 3.  **Reference:** To serve as a personal knowledge base – "How did I set that up again?" or "Where did I save that useful link?".
 4.  **Improvement:** Documenting the setup encourages thoughtful organization and refinement over time.
+5.  **Security:** To ensure sensitive information like API keys and credentials are protected from accidental commits.
 
 ## Usage
 
 - **Bookmarks:** The `bookmarks.html` file can be imported directly into most modern web browsers. Refer to `bookmarks.md` for the organizational philosophy behind it.
 - **AI Assistant Rules:** The `.rules` file provides project-specific instructions for AI assistants. For each AI tool/editor, create a symlink (e.g., `ln -sf .rules .windsurfrules`) so the tool reads the correct rules. See `ai_assistant_rules.md` for details and examples.
+- **Git Security Setup:** Run `./setup-git-hooks.sh` to configure git-secrets and pre-commit hooks globally. For existing repositories, use `./apply-git-hooks.sh /path/to/repo`. See `git-security.md` for detailed information.
 - **Configuration Files (Future):** Specific instructions will be added if configuration files or setup scripts require manual steps or execution.
 
 ## Contributing
