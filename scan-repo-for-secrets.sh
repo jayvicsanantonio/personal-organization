@@ -1,5 +1,5 @@
-#!/bin/bash
-# Script to scan a repository for secrets in history
+#!/bin/zsh
+# Script to scan a repository for secrets in history (zsh version)
 
 REPO_PATH=$1
 

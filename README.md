@@ -19,6 +19,8 @@ This repository contains various files and documentation related to my macOS set
 - **`apply-git-hooks.sh`**: Utility script to apply Git security hooks to existing repositories.
 - **`scan-repo-for-secrets.sh`**: Utility script to scan repositories for secrets in Git history.
 - **`git-security.md`**: Documentation on Git security tools and best practices for preventing credential leaks.
+- **`git-secrets-setup.md`**: Documentation for the `git-secrets-setup.sh` script. See this file for detailed usage, prerequisites, and configuration instructions for automating git-secrets setup.
+
 - **`.rules`**: Project-specific operational guidelines for AI coding assistants. Symlinks (e.g., `.windsurfrules`, `.clinerules`, `.cursorrules`) can be created to point to `.rules` for compatibility with different editors or AI tools.
 - _(Future additions may include:)_
   - Shell configuration files (`.zshrc`, `.bash_profile`, aliases, etc.)
