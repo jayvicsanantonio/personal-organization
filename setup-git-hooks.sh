@@ -1,5 +1,5 @@
-#!/bin/bash
-# setup-git-hooks.sh - Automation script for git-secrets and pre-commit setup
+#!/bin/zsh
+# setup-git-hooks.sh - Automation script for git-secrets and pre-commit setup (zsh version)
 
 echo "Setting up git-secrets and pre-commit hooks globally..."
 

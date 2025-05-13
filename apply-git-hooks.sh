@@ -1,5 +1,5 @@
-#!/bin/bash
-# Script to apply git hooks to existing repositories
+#!/bin/zsh
+# Script to apply git hooks to existing repositories (zsh version)
 
 REPO_PATH=$1
 
