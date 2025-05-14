@@ -19,56 +19,37 @@ echo "Setting up git-secrets patterns for various credentials and sensitive info
 # ------------------------------
 echo "Adding AWS credential patterns..."
 
-# AWS Access Key IDs
-git secrets --add --global 'AKIA[0-9A-Z]{16}'  # AWS Access Key ID pattern
-git secrets --add --global 'ASIA[0-9A-Z]{16}'  # AWS STS temporary credentials
-git secrets --add --global 'A3T[A-Z0-9]{13}'   # AWS Account ID variant
-git secrets --add --global 'AKTP[0-9A-Z]{16}'  # AWS Session token
-
-# AWS Secret Key regex pattern (case insensitive)
-git secrets --add --global '(?i)aws(.{0,20})?(secret|key)[^a-zA-Z0-9]+'
-
-# ------------------------------
-# GitHub, GitLab Tokens
-# ------------------------------
-echo "Adding GitHub and GitLab token patterns..."
-
-# GitHub tokens (personal access tokens, OAuth tokens, etc.)
-git secrets --add --global 'gh[pousr]_[A-Za-z0-9_]{36,255}'
-
-# GitLab personal access tokens
-git secrets --add --global 'gitlab_pat_[A-Za-z0-9_-]+'
-git secrets --add --global 'glpat-[A-Za-z0-9-_]{20,40}'
-
-# ------------------------------
-# Slack & Discord Tokens
-# ------------------------------
-echo "Adding Slack and Discord token patterns..."
-
-# Slack tokens (bot, app, user, etc.)
-git secrets --add --global 'xox[baprs]-[0-9a-zA-Z]{10,48}'
-git secrets --add --global 'SLACK_API_TOKEN=[A-Za-z0-9-]+'
-
-# Discord webhook URLs
-git secrets --add --global 'discord(?:app)?\.com/api/webhooks/[0-9]+/[A-Za-z0-9_-]+'
+# Register built-in AWS patterns (Access Key ID and Secret Access Key)
+git secrets --register-aws --global
 
 # ------------------------------
 # Google API Keys
 # ------------------------------
 echo "Adding Google API key patterns..."
 
-# Google API keys
-git secrets --add --global 'AIza[0-9A-Za-z-_]{35}'
-git secrets --add --global 'GOOG[0-9A-Za-z=_-]{20,40}'
+git secrets --add --global 'AIza[0-9A-Za-z_-]{35}'
+git secrets --add --global 'GOOG[0-9A-Za-z_-]{20}'
 
 # ------------------------------
-# Stripe API Keys
+# Slack Tokens
 # ------------------------------
-echo "Adding Stripe API key patterns..."
+echo "Adding Slack token patterns..."
 
-# Stripe live secret and publishable keys
+git secrets --add --global 'xox[baprs]-[0-9a-zA-Z]{10,48}'
+
+# ------------------------------
+# GitHub Tokens
+# ------------------------------
+echo "Adding GitHub token patterns..."
+
+git secrets --add --global 'ghp_[0-9A-Za-z]{36}'
+
+# ------------------------------
+# Stripe Keys
+# ------------------------------
+echo "Adding Stripe secret key patterns..."
+
 git secrets --add --global 'sk_live_[0-9a-zA-Z]{24}'
-git secrets --add --global 'pk_live_[0-9a-zA-Z]{24}'
 
 # ------------------------------
 # Authentication Tokens
@@ -92,14 +73,19 @@ git secrets --add --global '[a-zA-Z_]*_SECRET\s*=\s*[A-Za-z0-9\-_]{8,100}'
 git secrets --add --global '[a-zA-Z_]*_TOKEN\s*=\s*[A-Za-z0-9\-_]{8,100}'
 
 # ------------------------------
-# Private Keys
+# JSON Web Tokens (JWT)
 # ------------------------------
-echo "Adding private key patterns..."
+echo "Adding JWT token patterns..."
 
-# Various private key formats
-git secrets --add --global 'BEGIN RSA PRIVATE KEY'
-git secrets --add --global 'BEGIN OPENSSH PRIVATE KEY'
-git secrets --add --global 'BEGIN PRIVATE KEY'
+git secrets --add --global 'eyJ[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+'
+
+# ------------------------------
+# PEM Private Keys
+# ------------------------------
+echo "Adding PEM private key patterns..."
+
+git secrets --add --global '\\-\\-\\-\\-\\-BEGIN PRIVATE KEY\\-\\-\\-\\-\\-'
+git secrets --add --global '\\-\\-\\-\\-\\-BEGIN RSA PRIVATE KEY\\-\\-\\-\\-\\-'
 
 # ------------------------------
 # Configure git-secrets to scan all files
