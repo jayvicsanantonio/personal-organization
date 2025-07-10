@@ -22,6 +22,7 @@ This repository contains various files and documentation related to my macOS set
 - **`git-secrets-setup.md`**: Documentation for the `git-secrets-setup.sh` script. See this file for detailed usage, prerequisites, and configuration instructions for automating git-secrets setup.
 
 - **`.rules`**: Project-specific operational guidelines for AI coding assistants. Symlinks (e.g., `.windsurfrules`, `.clinerules`, `.cursorrules`) can be created to point to `.rules` for compatibility with different editors or AI tools.
+- **`windsurf.settings.json`**: Contains settings for the Windsurf AI editor.
 - _(Future additions may include:)_
   - Shell configuration files (`.zshrc`, `.bash_profile`, aliases, etc.)
   - Additional application settings or preferences
